@@ -30,6 +30,24 @@ body {
  * Header
  */
 
+ .banner-wrap {
+  background-image: url(https://pbs.twimg.com/media/FzJKcRKWYAExuOX?format=jpg&name=large);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
+
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
   border-bottom: .25rem solid transparent;
